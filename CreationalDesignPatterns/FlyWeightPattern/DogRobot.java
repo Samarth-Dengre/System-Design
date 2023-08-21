@@ -5,8 +5,8 @@ public class DogRobot implements IRobot{
     private Sprites sprite;
 
     DogRobot(String type, Sprites sprite){
-    this.type = type;
-    this.sprite = sprite;
+        this.type = type;
+        this.sprite = sprite;
     }
     public Sprites getSprite() {
         return sprite;
